@@ -1,0 +1,4 @@
+# Design_the_algorithm_ML_DL_NLP
+This repository stores the code designed to realize some algorithms of machine learning, deep learning and natural language processing
+The files are mainly divided according to the type of problem being dealt with
+When a DL method is implemented to solve NLP problem, it will be in NLP instead of DL
