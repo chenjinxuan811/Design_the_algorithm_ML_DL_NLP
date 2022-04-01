@@ -51,9 +51,9 @@ class KNN:
         :return: the index of the category
         """
         distance = self._distance(X)
-        label = list(zip(distance,self.target))  # 形成序偶
-        sequence = sorted(label)    # 排序的时候，默认按照第一个来排列
-        neighbor = []   # 放邻居的标签
+        label = list(zip(distance,self.target))  # Formation of sequential couples
+        sequence = sorted(label)    # When sorting, the default is to sort by first
+        neighbor = []   # Place the neighbor's label
         for i in range(self.k):
             neighbor.append(sequence[i][1])
         predicts = {}
